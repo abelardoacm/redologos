@@ -1,3 +1,2 @@
 # redologos
-Proyecto en pañales, prueba de bot discord.
-Segunda edicion.
+A **reductive Tricarboxilyc Acid Cycle** network evolutionary analysis
