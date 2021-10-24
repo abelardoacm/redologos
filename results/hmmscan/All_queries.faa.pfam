@@ -1,0 +1,300 @@
+# parameters:
+# raw hmmscan command: hmmscan -o ../results/hmmscan/All_queries.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/All_queries.faa
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../data/Proteins_fasta/All_queries.faa
+# target HMM database:             /home/abelardo/get_homologues/db/Pfam-A.hmm
+# output directed to file:         ../results/hmmscan/All_queries.faa.pfam
+# prefer accessions over names:    yes
+# show alignments in output:       no
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       hte:Hydth_1085  [L=607]
+Description: K00174 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | (GenBank) pyruvate flavodoxin/ferredoxin oxidoreductase domain protein (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    2.3e-56  191.2   0.1    3.2e-56  190.8   0.1    1.2  1  PF01855.21  Pyruvate flavodoxin/ferredoxin oxidoreductase, th
+    7.4e-38  130.5   0.0    1.3e-37  129.7   0.0    1.4  1  PF01558.20  Pyruvate ferredoxin/flavodoxin oxidoreductase
+    3.7e-08   33.7   0.0    8.3e-08   32.6   0.0    1.6  1  PF17147.6   Pyruvate:ferredoxin oxidoreductase core domain II
+
+
+Domain annotation for each model:
+>> PF01855.21  Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  190.8   0.1   4.9e-60   3.2e-56       2     176 ..     210     385 ..     209     440 .. 0.92
+
+>> PF01558.20  Pyruvate ferredoxin/flavodoxin oxidoreductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.7   0.0   2.1e-41   1.3e-37       1     175 [.      13     174 ..      13     175 .. 0.98
+
+>> PF17147.6  Pyruvate:ferredoxin oxidoreductase core domain II
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.0   1.3e-11   8.3e-08       1      78 [.     482     555 ..     482     568 .. 0.90
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (607 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       478  (0.0249231); expected 383.6 (0.02)
+Passed bias filter:                      460  (0.0239846); expected 383.6 (0.02)
+Passed Vit filter:                        45  (0.00234632); expected 19.2 (0.001)
+Passed Fwd filter:                         5  (0.000260702); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.23u 0.12s 00:00:00.35 Elapsed: 00:00:00.20
+# Mc/sec: 9596.48
+//
+Query:       hte:Hydth_1084  [L=295]
+Description: K00175 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | (GenBank) pyruvate ferredoxin/flavodoxin oxidoreductase, beta subunit (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+      3e-32  111.6   0.0    4.6e-32  111.0   0.0    1.3  1  PF02775.23  Thiamine pyrophosphate enzyme, C-terminal TPP bin
+    1.4e-24   86.1   0.2    2.6e-24   85.2   0.2    1.5  1  PF12367.10  Pyruvate ferredoxin oxidoreductase beta subunit C
+
+
+Domain annotation for each model:
+>> PF02775.23  Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.0   0.0   4.7e-36   4.6e-32       3     153 .]      53     199 ..      51     199 .. 0.91
+
+>> PF12367.10  Pyruvate ferredoxin oxidoreductase beta subunit C terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.2   0.2   2.7e-28   2.6e-24       1      65 [.     203     274 ..     203     275 .. 0.98
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (295 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       682  (0.0355597); expected 383.6 (0.02)
+Passed bias filter:                      635  (0.0331091); expected 383.6 (0.02)
+Passed Vit filter:                        46  (0.00239846); expected 19.2 (0.001)
+Passed Fwd filter:                         3  (0.000156421); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.21u 0.03s 00:00:00.24 Elapsed: 00:00:00.13
+# Mc/sec: 6870.94
+//
+Query:       cli:Clim_1231  [L=610]
+Description: K15230 ATP-citrate lyase alpha-subunit [EC:2.3.3.8] | (GenBank) ATP-citrate lyase/succinyl-CoA ligase (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.2e-30  107.0   0.0    1.3e-23   83.8   0.0    2.2  2  PF00285.23  Citrate synthase, C-terminal domain
+    2.8e-14   53.3   1.4    9.7e-14   51.6   0.4    2.2  1  PF00549.21  CoA-ligase
+    5.3e-07   29.6   0.1    1.9e-06   27.8   0.0    2.0  1  PF13607.8   Succinyl-CoA ligase like flavodoxin domain
+    1.4e-06   29.0   0.0      3e-06   27.9   0.0    1.6  1  PF02629.21  CoA binding domain
+
+
+Domain annotation for each model:
+>> PF00285.23  Citrate synthase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.8   0.0   2.2e-09   1.1e-05       9      59 ..     358     406 ..     353     410 .. 0.86
+   2 !   83.8   0.0   2.7e-27   1.3e-23     166     358 ..     401     590 ..     400     591 .. 0.90
+
+>> PF00549.21  CoA-ligase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.6   0.4     2e-17   9.7e-14       2     152 ..     174     298 ..     173     299 .. 0.87
+
+>> PF13607.8  Succinyl-CoA ligase like flavodoxin domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.8   0.0   3.9e-10   1.9e-06       2     134 ..     168     310 ..     167     314 .. 0.83
+
+>> PF02629.21  CoA binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9   0.0   6.3e-10     3e-06       3      96 .]       8     113 ..       6     113 .. 0.81
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (610 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       452  (0.0235674); expected 383.6 (0.02)
+Passed bias filter:                      432  (0.0225246); expected 383.6 (0.02)
+Passed Vit filter:                        35  (0.00182491); expected 19.2 (0.001)
+Passed Fwd filter:                         4  (0.000208561); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.19u 0.08s 00:00:00.27 Elapsed: 00:00:00.14
+# Mc/sec: 13475.72
+//
+Query:       cli:Clim_1232  [L=398]
+Description: K15231 ATP-citrate lyase beta-subunit [EC:2.3.3.8] | (GenBank) ATP-grasp domain protein (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    2.9e-55  186.7   0.0      4e-55  186.2   0.0    1.2  1  PF16114.7   ATP citrate lyase citrate-binding
+    7.1e-27   94.4   0.0    9.4e-27   94.0   0.0    1.2  1  PF08442.12  ATP-grasp domain
+    8.4e-10   38.5   0.0    2.1e-09   37.2   0.0    1.6  1  PF13549.8   ATP-grasp domain
+
+
+Domain annotation for each model:
+>> PF16114.7  ATP citrate lyase citrate-binding
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  186.2   0.0   6.2e-59     4e-55       2     177 ..     232     397 ..     231     398 .] 0.97
+
+>> PF08442.12  ATP-grasp domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.0   0.0   1.5e-30   9.4e-27       2     202 .]       4     194 ..       3     194 .. 0.92
+
+>> PF13549.8  ATP-grasp domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   0.0   3.3e-13   2.1e-09      15     222 .]       9     210 ..       3     210 .. 0.80
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (398 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       426  (0.0222118); expected 383.6 (0.02)
+Passed bias filter:                      408  (0.0212733); expected 383.6 (0.02)
+Passed Vit filter:                        30  (0.00156421); expected 19.2 (0.001)
+Passed Fwd filter:                         4  (0.000208561); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.17u 0.08s 00:00:00.25 Elapsed: 00:00:00.14
+# Mc/sec: 9174.63
+//
+Query:       hth:HTH_0311  [L=259]
+Description: K15234 citryl-CoA lyase [EC:4.1.3.34] | (GenBank) ccl; citryl-CoA lyase (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    4.3e-44  151.2   0.1    1.3e-38  133.1   0.0    2.0  1  PF00285.23  Citrate synthase, C-terminal domain
+
+
+Domain annotation for each model:
+>> PF00285.23  Citrate synthase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.1   0.0   6.8e-43   1.3e-38     164     353 ..      46     228 ..      46     235 .. 0.92
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (259 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       557  (0.0290422); expected 383.6 (0.02)
+Passed bias filter:                      529  (0.0275823); expected 383.6 (0.02)
+Passed Vit filter:                        53  (0.00276344); expected 19.2 (0.001)
+Passed Fwd filter:                         1  (5.21404e-05); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.19u 0.04s 00:00:00.23 Elapsed: 00:00:00.14
+# Mc/sec: 6007.34
+//
+Query:       hth:HTH_1737  [L=429]
+Description: K15232 citryl-CoA synthetase large subunit [EC:6.2.1.18] | (GenBank) ccsA; citryl-CoA synthetase large subunit (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    5.9e-39  133.9   0.0    8.4e-39  133.3   0.0    1.2  1  PF08442.12  ATP-grasp domain
+    9.8e-14   51.4   0.1    2.2e-13   50.2   0.0    1.5  1  PF16114.7   ATP citrate lyase citrate-binding
+
+
+Domain annotation for each model:
+>> PF08442.12  ATP-grasp domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.3   0.0   8.8e-43   8.4e-39       1     201 [.       2     195 ..       2     196 .. 0.93
+
+>> PF16114.7  ATP citrate lyase citrate-binding
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   2.3e-17   2.2e-13      28     170 ..     261     397 ..     241     401 .. 0.91
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (429 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       318  (0.0165806); expected 383.6 (0.02)
+Passed bias filter:                      312  (0.0162678); expected 383.6 (0.02)
+Passed Vit filter:                        25  (0.00130351); expected 19.2 (0.001)
+Passed Fwd filter:                         4  (0.000208561); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.20u 0.05s 00:00:00.25 Elapsed: 00:00:00.13
+# Mc/sec: 10134.36
+//
+Query:       hth:HTH_0201  [L=344]
+Description: K15233 citryl-CoA synthetase small subunit | (GenBank) ccsB; citryl-CoA synthetase small subunit (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    7.5e-23   81.1   2.5    1.1e-22   80.6   1.4    1.9  1  PF02629.21  CoA binding domain
+    2.1e-10   40.7   0.0    3.6e-10   40.0   0.0    1.3  1  PF00549.21  CoA-ligase
+    1.4e-06   28.2   0.0    2.3e-06   27.6   0.0    1.4  1  PF13607.8   Succinyl-CoA ligase like flavodoxin domain
+    7.1e-06   26.6   0.4    3.1e-05   24.6   0.1    1.9  1  PF13380.8   CoA binding domain
+
+
+Domain annotation for each model:
+>> PF02629.21  CoA binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.6   1.4   2.3e-26   1.1e-22       2      96 .]      14     108 ..      13     108 .. 0.95
+
+>> PF00549.21  CoA-ligase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.0   0.0   7.4e-14   3.6e-10       1     148 [.     165     288 ..     165     293 .. 0.87
+
+>> PF13607.8  Succinyl-CoA ligase like flavodoxin domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.6   0.0   4.7e-10   2.3e-06       2     107 ..     160     273 ..     159     302 .. 0.84
+
+>> PF13380.8  CoA binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   0.1   6.5e-09   3.1e-05      14     113 ..      26     136 ..      16     139 .. 0.83
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (344 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       345  (0.0179884); expected 383.6 (0.02)
+Passed bias filter:                      327  (0.0170499); expected 383.6 (0.02)
+Passed Vit filter:                        36  (0.00187705); expected 19.2 (0.001)
+Passed Fwd filter:                         5  (0.000260702); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.17u 0.07s 00:00:00.24 Elapsed: 00:00:00.13
+# Mc/sec: 8224.71
+//
+[ok]
