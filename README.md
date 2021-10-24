@@ -19,3 +19,9 @@ These are external dependencies for [redologos/bin](redologos/bin) scripts, link
 [Here](bin/) you'll find all scripts in the project. As a general rule, scripts in [bin/](bin/), read inputs from [data/](data/) and write outputs into [results/](results/). However external databases may be needed locally, and might be downloaded to independent locations.
 
 Usage examples of scripts and more details with samples can be found in [bin/README.md](bin/README.md).
+
+In brief, these are the current scripts in bin, it's ins-outs and tasks:
+
+ | Script	| ins	| outs | tasks
+|-	|-	|-	|-	|
+| [Subset_by_pfam.R](bin/Subset_by_pfam.R) 	|[query.fasta](data/Proteins_fasta/All_queries.faa)<br />[subject.fasta](data/Proteins_fasta/All_Results_fastacmd3.faa)<br />path to Pfamm-A.hmm | [Subset.fasta](results/subset_by_pfam/All_Results_fastacmd3_subset_by_All_queries_pfams.fasta)<br />[Subset.csv](results/subset_by_pfam/All_Results_fastacmd3_subset_by_All_queries_pfams.csv) | Inkvokes **hmmscan** to list all Pfam IDs in query.fasta, then retrieves all sequences in subject.fasta containing at least one of listed Pfam IDs
