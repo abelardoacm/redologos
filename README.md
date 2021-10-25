@@ -5,15 +5,18 @@ A **reductive Tricarboxilyc Acid Cycle** network evolutionary analysis.
 
 >### Current dependencies
 These are external dependencies for [redologos/bin](redologos/bin) scripts, links to their installing instructions, commands for installation,and used versions:
- | Software name (version used) 	| Terminal 	| Installation *debian based distros 	|
-|-	|-	|-	|
-| [tidyverse](https://www.tidyverse.org/) (1.3.1) 	| R (4.1.1) 	| `install.packages("tidyverse")` 	|
-| [taxize](https://cran.r-project.org/web/packages/taxize/taxize.pdf) (0.9.99) 	| R (4.1.1) 	| `install.packages("taxize")` 	|
-| [usethis](https://usethis.r-lib.org/) (2.0.1) 	| R (4.1.1) 	| `install.packages("usethis")` 	|
-| [seqinr](https://cran.r-project.org/web/packages/seqinr/index.html) (4.2.8) 	| R (4.1.1) 	| `install.packages("seqinr")` 	|
-| [myTAI](https://cran.r-project.org/web/packages/myTAI/index.html) (0.9.3) 	| R (4.1.1) 	| `install.packages("myTAI")` 	|
-| [stringr](https://www.rdocumentation.org/packages/stringr/versions/1.4.0) (1.4.0) 	| R (4.1.1) 	| `install.packages("stringr")` 	|
-| [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) (1.14.0) 	| R (4.1.1) 	| `install.packages("data.table")` 	|
+
+>#### R packages:
+- [tidyverse](https://www.tidyverse.org/) (1.3.1)
+- [taxize](https://cran.r-project.org/web/packages/taxize/taxize.pdf) (0.9.99)
+- [usethis](https://usethis.r-lib.org/) (2.0.1)
+- [seqinr](https://cran.r-project.org/web/packages/seqinr/index.html) (4.2.8)
+- [myTAI](https://cran.r-project.org/web/packages/myTAI/index.html) (0.9.3)
+- [stringr](https://www.rdocumentation.org/packages/stringr/versions/1.4.0) (1.4.0)
+- [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) (1.14.0)
+
+>#### Bash:
+- [hmmscan](https://www.mankier.com/1/hmmscan)(HMMER 3.3) \**assuming to ve available from any location
 
 ## [bin/](bin/)
 [Here](bin/) you'll find all scripts in the project. As a general rule, scripts in [bin/](bin/), read inputs from [data/](data/) and write outputs into [results/](results/). However external databases may be needed locally, and might be downloaded to independent locations.
