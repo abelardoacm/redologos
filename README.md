@@ -16,7 +16,7 @@ These are external dependencies for [redologos/bin](redologos/bin) scripts, link
 - [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) (1.14.0)
 
 >#### Bash:
-- [hmmscan](https://www.mankier.com/1/hmmscan)(HMMER 3.3) \**assuming to ve available from any location
+- [hmmscan](https://www.mankier.com/1/hmmscan)(HMMER 3.3) *\*assuming it is available from any location*
 
 ## [bin/](bin/)
 [Here](bin/) you'll find all scripts in the project. As a general rule, scripts in [bin/](bin/), read inputs from [data/](data/) and write outputs into [results/](results/). However external databases may be needed locally, and might be downloaded to independent locations.
