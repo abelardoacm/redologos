@@ -45,5 +45,5 @@ Subject counts of sequences with Pfams matching query:
     - **-s** \<path to subject.fasta\>
     - **-P** \<path to Pfam\>
 - Optional
-    - **--stdout** prints bukt Pfam fasta subset in stdout
-    - **-o** optional name for output instead of default
+    - **--stdout** prints Pfam fasta subset in stdout
+    - **-o** optional name for output instead of default (subject_subset_by_query_pfams.csv)
