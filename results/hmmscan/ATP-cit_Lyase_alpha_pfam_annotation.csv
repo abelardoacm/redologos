@@ -1,0 +1,5 @@
+"","Query_ID","Num_q_local","aa_length","Pfam_id","Pfam_name","HMMER_score","biasq","c_value","i_value","hmmfrom","hmmto","alifrom","alito","envfrom","envto","acc"
+"1","cliClim1231",1,610,"PF00285.23","Citrate_synthase,_C-terminal_domain","24.8","0.0","2.2e-09","1.1e-05","9","59","358","406","353","410","0.86"
+"2","cliClim1231",1,610,"PF00549.21","CoA-ligase","51.6","0.4","2e-17","9.7e-14","2","152","174","298","173","299","0.87"
+"3","cliClim1231",1,610,"PF13607.8","Succinyl-CoA_ligase_like_flavodoxin_domain","27.8","0.0","3.9e-10","1.9e-06","2","134","168","310","167","314","0.83"
+"4","cliClim1231",1,610,"PF02629.21","CoA_binding_domain","27.9","0.0","6.3e-10","3e-06","3","96","8","113","6","113","0.81"

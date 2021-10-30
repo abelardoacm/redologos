@@ -1,0 +1,47 @@
+# parameters:
+# raw hmmscan command: hmmscan -o ../results/hmmscan/Citryl-CoA-lyase.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/Citryl-CoA-lyase.faa
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../data/Proteins_fasta/Citryl-CoA-lyase.faa
+# target HMM database:             /home/abelardo/get_homologues/db/Pfam-A.hmm
+# output directed to file:         ../results/hmmscan/Citryl-CoA-lyase.faa.pfam
+# prefer accessions over names:    yes
+# show alignments in output:       no
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       hth:HTH_0311  [L=259]
+Description: K15234 citryl-CoA lyase [EC:4.1.3.34] | (GenBank) ccl; citryl-CoA lyase (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    4.3e-44  151.2   0.1    1.3e-38  133.1   0.0    2.0  1  PF00285.23  Citrate synthase, C-terminal domain
+
+
+Domain annotation for each model:
+>> PF00285.23  Citrate synthase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.1   0.0   6.8e-43   1.3e-38     164     353 ..      46     228 ..      46     235 .. 0.92
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (259 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       557  (0.0290422); expected 383.6 (0.02)
+Passed bias filter:                      529  (0.0275823); expected 383.6 (0.02)
+Passed Vit filter:                        53  (0.00276344); expected 19.2 (0.001)
+Passed Fwd filter:                         1  (5.21404e-05); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.25u 0.09s 00:00:00.34 Elapsed: 00:00:00.52
+# Mc/sec: 1622.35
+//
+[ok]

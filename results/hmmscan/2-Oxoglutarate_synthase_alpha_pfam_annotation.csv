@@ -1,0 +1,4 @@
+"","Query_ID","Num_q_local","aa_length","Pfam_id","Pfam_name","HMMER_score","biasq","c_value","i_value","hmmfrom","hmmto","alifrom","alito","envfrom","envto","acc"
+"1","hteHydth1085",1,607,"PF01855.21","Pyruvate_flavodoxin/ferredoxin_oxidoreductase,_thiamine_diP-bdg","190.8","0.1","4.9e-60","3.2e-56","2","176","210","385","209","440","0.92"
+"2","hteHydth1085",1,607,"PF01558.20","Pyruvate_ferredoxin/flavodoxin_oxidoreductase","129.7","0.0","2.1e-41","1.3e-37","1","175","13","174","13","175","0.98"
+"3","hteHydth1085",1,607,"PF17147.6","Pyruvate:ferredoxin_oxidoreductase_core_domain_II","32.6","0.0","1.3e-11","8.3e-08","1","78","482","555","482","568","0.90"

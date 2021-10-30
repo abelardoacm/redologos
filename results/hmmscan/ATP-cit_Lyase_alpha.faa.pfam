@@ -1,0 +1,66 @@
+# parameters:
+# raw hmmscan command: hmmscan -o ../results/hmmscan/ATP-cit_Lyase_alpha.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/ATP-cit_Lyase_alpha.faa
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../data/Proteins_fasta/ATP-cit_Lyase_alpha.faa
+# target HMM database:             /home/abelardo/get_homologues/db/Pfam-A.hmm
+# output directed to file:         ../results/hmmscan/ATP-cit_Lyase_alpha.faa.pfam
+# prefer accessions over names:    yes
+# show alignments in output:       no
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cli:Clim_1231  [L=610]
+Description: K15230 ATP-citrate lyase alpha-subunit [EC:2.3.3.8] | (GenBank) ATP-citrate lyase/succinyl-CoA ligase (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    1.2e-30  107.0   0.0    1.3e-23   83.8   0.0    2.2  2  PF00285.23  Citrate synthase, C-terminal domain
+    2.8e-14   53.3   1.4    9.7e-14   51.6   0.4    2.2  1  PF00549.21  CoA-ligase
+    5.3e-07   29.6   0.1    1.9e-06   27.8   0.0    2.0  1  PF13607.8   Succinyl-CoA ligase like flavodoxin domain
+    1.4e-06   29.0   0.0      3e-06   27.9   0.0    1.6  1  PF02629.21  CoA binding domain
+
+
+Domain annotation for each model:
+>> PF00285.23  Citrate synthase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.8   0.0   2.2e-09   1.1e-05       9      59 ..     358     406 ..     353     410 .. 0.86
+   2 !   83.8   0.0   2.7e-27   1.3e-23     166     358 ..     401     590 ..     400     591 .. 0.90
+
+>> PF00549.21  CoA-ligase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.6   0.4     2e-17   9.7e-14       2     152 ..     174     298 ..     173     299 .. 0.87
+
+>> PF13607.8  Succinyl-CoA ligase like flavodoxin domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.8   0.0   3.9e-10   1.9e-06       2     134 ..     168     310 ..     167     314 .. 0.83
+
+>> PF02629.21  CoA binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9   0.0   6.3e-10     3e-06       3      96 .]       8     113 ..       6     113 .. 0.81
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (610 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       452  (0.0235674); expected 383.6 (0.02)
+Passed bias filter:                      432  (0.0225246); expected 383.6 (0.02)
+Passed Vit filter:                        35  (0.00182491); expected 19.2 (0.001)
+Passed Fwd filter:                         4  (0.000208561); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.29u 0.10s 00:00:00.39 Elapsed: 00:00:00.54
+# Mc/sec: 3636.99
+//
+[ok]

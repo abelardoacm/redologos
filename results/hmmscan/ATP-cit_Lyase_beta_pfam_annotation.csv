@@ -1,0 +1,4 @@
+"","Query_ID","Num_q_local","aa_length","Pfam_id","Pfam_name","HMMER_score","biasq","c_value","i_value","hmmfrom","hmmto","alifrom","alito","envfrom","envto","acc"
+"1","cliClim1232",1,398,"PF16114.7","ATP_citrate_lyase_citrate-binding","186.2","0.0","6.2e-59","4e-55","2","177","232","397","231","398","0.97"
+"2","cliClim1232",1,398,"PF08442.12","ATP-grasp_domain","94.0","0.0","1.5e-30","9.4e-27","2","202","4","194","3","194","0.92"
+"3","cliClim1232",1,398,"PF13549.8","ATP-grasp_domain","37.2","0.0","3.3e-13","2.1e-09","15","222","9","210","3","210","0.80"

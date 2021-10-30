@@ -1,0 +1,2 @@
+"","Query_ID","Num_q_local","aa_length","Pfam_id","Pfam_name","HMMER_score","biasq","c_value","i_value","hmmfrom","hmmto","alifrom","alito","envfrom","envto","acc"
+"1","hthHTH0311",1,259,"PF00285.23","Citrate_synthase,_C-terminal_domain","133.1","0.0","6.8e-43","1.3e-38","164","353","46","228","46","235","0.92"

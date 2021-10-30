@@ -1,0 +1,13 @@
+
+No previous hmmscan found for query... calling:
+
+hmmscan -o ../results/hmmscan/2-Oxoglutarate_synthase_alpha.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/2-Oxoglutarate_synthase_alpha.faaPrevious hmmscan found for subject!
+
+Number of proteins in query "2-Oxoglutarate_synthase_alpha" = 1	|	Number of Pfams = 3
+Number of proteins in subject "All_Results_fastacmd3" = 439	|	Number of Pfams = 36
+
+Subject counts of sequences with Pfams matching query:
+     62 "Pyruvate_ferredoxin/flavodoxin_oxidoreductase"
+     68 "Pyruvate:ferredoxin_oxidoreductase_core_domain_II"
+     98 "Pyruvate_flavodoxin/ferredoxin_oxidoreductase
+

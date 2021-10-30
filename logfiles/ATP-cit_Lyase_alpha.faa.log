@@ -1,0 +1,14 @@
+
+No previous hmmscan found for query... calling:
+
+hmmscan -o ../results/hmmscan/ATP-cit_Lyase_alpha.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/ATP-cit_Lyase_alpha.faaPrevious hmmscan found for subject!
+
+Number of proteins in query "ATP-cit_Lyase_alpha" = 1	|	Number of Pfams = 4
+Number of proteins in subject "All_Results_fastacmd3" = 439	|	Number of Pfams = 36
+
+Subject counts of sequences with Pfams matching query:
+     26 "Citrate_synthase
+     20 "CoA_binding_domain"
+     27 "CoA-ligase"
+     14 "Succinyl-CoA_ligase_like_flavodoxin_domain"
+

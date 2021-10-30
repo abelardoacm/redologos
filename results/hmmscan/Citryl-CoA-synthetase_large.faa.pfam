@@ -1,0 +1,53 @@
+# parameters:
+# raw hmmscan command: hmmscan -o ../results/hmmscan/Citryl-CoA-synthetase_large.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/Citryl-CoA-synthetase_large.faa
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../data/Proteins_fasta/Citryl-CoA-synthetase_large.faa
+# target HMM database:             /home/abelardo/get_homologues/db/Pfam-A.hmm
+# output directed to file:         ../results/hmmscan/Citryl-CoA-synthetase_large.faa.pfam
+# prefer accessions over names:    yes
+# show alignments in output:       no
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       hth:HTH_1737  [L=429]
+Description: K15232 citryl-CoA synthetase large subunit [EC:6.2.1.18] | (GenBank) ccsA; citryl-CoA synthetase large subunit (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    5.9e-39  133.9   0.0    8.4e-39  133.3   0.0    1.2  1  PF08442.12  ATP-grasp domain
+    9.8e-14   51.4   0.1    2.2e-13   50.2   0.0    1.5  1  PF16114.7   ATP citrate lyase citrate-binding
+
+
+Domain annotation for each model:
+>> PF08442.12  ATP-grasp domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.3   0.0   8.8e-43   8.4e-39       1     201 [.       2     195 ..       2     196 .. 0.93
+
+>> PF16114.7  ATP citrate lyase citrate-binding
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   0.0   2.3e-17   2.2e-13      28     170 ..     261     397 ..     241     401 .. 0.91
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (429 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       318  (0.0165806); expected 383.6 (0.02)
+Passed bias filter:                      312  (0.0162678); expected 383.6 (0.02)
+Passed Vit filter:                        25  (0.00130351); expected 19.2 (0.001)
+Passed Fwd filter:                         4  (0.000208561); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.23u 0.08s 00:00:00.31 Elapsed: 00:00:00.35
+# Mc/sec: 3938.84
+//
+[ok]

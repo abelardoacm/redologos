@@ -1,0 +1,59 @@
+# parameters:
+# raw hmmscan command: hmmscan -o ../results/hmmscan/ATP-cit_Lyase_beta.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/ATP-cit_Lyase_beta.faa
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../data/Proteins_fasta/ATP-cit_Lyase_beta.faa
+# target HMM database:             /home/abelardo/get_homologues/db/Pfam-A.hmm
+# output directed to file:         ../results/hmmscan/ATP-cit_Lyase_beta.faa.pfam
+# prefer accessions over names:    yes
+# show alignments in output:       no
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cli:Clim_1232  [L=398]
+Description: K15231 ATP-citrate lyase beta-subunit [EC:2.3.3.8] | (GenBank) ATP-grasp domain protein (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    2.9e-55  186.7   0.0      4e-55  186.2   0.0    1.2  1  PF16114.7   ATP citrate lyase citrate-binding
+    7.1e-27   94.4   0.0    9.4e-27   94.0   0.0    1.2  1  PF08442.12  ATP-grasp domain
+    8.4e-10   38.5   0.0    2.1e-09   37.2   0.0    1.6  1  PF13549.8   ATP-grasp domain
+
+
+Domain annotation for each model:
+>> PF16114.7  ATP citrate lyase citrate-binding
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  186.2   0.0   6.2e-59     4e-55       2     177 ..     232     397 ..     231     398 .] 0.97
+
+>> PF08442.12  ATP-grasp domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.0   0.0   1.5e-30   9.4e-27       2     202 .]       4     194 ..       3     194 .. 0.92
+
+>> PF13549.8  ATP-grasp domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   0.0   3.3e-13   2.1e-09      15     222 .]       9     210 ..       3     210 .. 0.80
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (398 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       426  (0.0222118); expected 383.6 (0.02)
+Passed bias filter:                      408  (0.0212733); expected 383.6 (0.02)
+Passed Vit filter:                        30  (0.00156421); expected 19.2 (0.001)
+Passed Fwd filter:                         4  (0.000208561); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.24u 0.09s 00:00:00.32 Elapsed: 00:00:00.46
+# Mc/sec: 2798.26
+//
+[ok]

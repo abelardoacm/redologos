@@ -1,0 +1,12 @@
+
+No previous hmmscan found for query... calling:
+
+hmmscan -o ../results/hmmscan/2-Oxoglutarate_synthase_beta.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/2-Oxoglutarate_synthase_beta.faaPrevious hmmscan found for subject!
+
+Number of proteins in query "2-Oxoglutarate_synthase_beta" = 1	|	Number of Pfams = 2
+Number of proteins in subject "All_Results_fastacmd3" = 439	|	Number of Pfams = 36
+
+Subject counts of sequences with Pfams matching query:
+     50 "Pyruvate_ferredoxin_oxidoreductase_beta_subunit_C_terminal"
+     70 "Thiamine_pyrophosphate_enzyme
+

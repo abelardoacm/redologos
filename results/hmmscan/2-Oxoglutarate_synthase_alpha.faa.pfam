@@ -1,0 +1,59 @@
+# parameters:
+# raw hmmscan command: hmmscan -o ../results/hmmscan/2-Oxoglutarate_synthase_alpha.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/2-Oxoglutarate_synthase_alpha.faa
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../data/Proteins_fasta/2-Oxoglutarate_synthase_alpha.faa
+# target HMM database:             /home/abelardo/get_homologues/db/Pfam-A.hmm
+# output directed to file:         ../results/hmmscan/2-Oxoglutarate_synthase_alpha.faa.pfam
+# prefer accessions over names:    yes
+# show alignments in output:       no
+# model-specific thresholding:     GA cutoffs
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       hte:Hydth_1085  [L=607]
+Description: K00174 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | (GenBank) pyruvate flavodoxin/ferredoxin oxidoreductase domain protein (A)
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    2.3e-56  191.2   0.1    3.2e-56  190.8   0.1    1.2  1  PF01855.21  Pyruvate flavodoxin/ferredoxin oxidoreductase, th
+    7.4e-38  130.5   0.0    1.3e-37  129.7   0.0    1.4  1  PF01558.20  Pyruvate ferredoxin/flavodoxin oxidoreductase
+    3.7e-08   33.7   0.0    8.3e-08   32.6   0.0    1.6  1  PF17147.6   Pyruvate:ferredoxin oxidoreductase core domain II
+
+
+Domain annotation for each model:
+>> PF01855.21  Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  190.8   0.1   4.9e-60   3.2e-56       2     176 ..     210     385 ..     209     440 .. 0.92
+
+>> PF01558.20  Pyruvate ferredoxin/flavodoxin oxidoreductase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.7   0.0   2.1e-41   1.3e-37       1     175 [.      13     174 ..      13     175 .. 0.98
+
+>> PF17147.6  Pyruvate:ferredoxin oxidoreductase core domain II
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.0   1.3e-11   8.3e-08       1      78 [.     482     555 ..     482     568 .. 0.90
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (607 residues searched)
+Target model(s):                       19179  (3258786 nodes)
+Passed MSV filter:                       478  (0.0249231); expected 383.6 (0.02)
+Passed bias filter:                      460  (0.0239846); expected 383.6 (0.02)
+Passed Vit filter:                        45  (0.00234632); expected 19.2 (0.001)
+Passed Fwd filter:                         5  (0.000260702); expected 0.2 (1e-05)
+Initial search space (Z):              19179  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.28u 0.23s 00:00:00.51 Elapsed: 00:00:04.12
+# Mc/sec: 479.35
+//
+[ok]

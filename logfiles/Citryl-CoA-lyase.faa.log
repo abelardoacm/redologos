@@ -1,0 +1,11 @@
+
+No previous hmmscan found for query... calling:
+
+hmmscan -o ../results/hmmscan/Citryl-CoA-lyase.faa.pfam --noali --acc --cut_ga --cpu 1 /home/abelardo/get_homologues/db/Pfam-A.hmm ../data/Proteins_fasta/Citryl-CoA-lyase.faaPrevious hmmscan found for subject!
+
+Number of proteins in query "Citryl-CoA-lyase" = 1	|	Number of Pfams = 1
+Number of proteins in subject "All_Results_fastacmd3" = 439	|	Number of Pfams = 36
+
+Subject counts of sequences with Pfams matching query:
+     26 "Citrate_synthase
+
